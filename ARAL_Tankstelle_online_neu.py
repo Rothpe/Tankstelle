@@ -40,9 +40,9 @@ for priceRow in priceRows:
         name = str(div.string)
 
     if price is not None and name is not None:
-        print(name + ':' + "{:5.2f}".format(price))
+        print(name + ':' + "{:5.2f}".format(price) + "9")
         # Marker \n means NEW Entry
         # Marker : seperates Name and Price
-        read_write_serial(name + ':' + "{:5.2f}".format(price))
+        read_write_serial(name + ':' + "{:5.2f}".format(price) + "9")
 
 
